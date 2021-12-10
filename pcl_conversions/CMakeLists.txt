@@ -31,6 +31,7 @@ set(dependencies
 include_directories(
   include
   ${PCL_COMMON_INCLUDE_DIRS}
+  ${pcl_msgs_INCLUDE_DIRS}
 )
 
 install(DIRECTORY include/${PROJECT_NAME}/
